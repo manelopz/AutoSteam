@@ -4,368 +4,383 @@
         <title>AutoSteam</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css">
 
 
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> 
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Biryani:600' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Biryani:400,900,600,700,800' rel='stylesheet' type='text/css'>
-
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-aNUYGqSUL9wG/vP7+cWZ5QOM4gsQou3sBfWRr/8S3R1Lv0rysEmnwsRKMbhiQX/O" crossorigin="anonymous" type="text/css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js" type="text/javascript">
-        </script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript">        
-        </script>
-
-        <link href="http://static.tumblr.com/fk7a7ro/M3ynf026l/main2.0.min.css" rel="stylesheet">
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js" type="text/javascript"></script>    
         <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+        <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link href="owl-carousel/owl.theme.css" rel="stylesheet">
+        <link href="assets/css/bootstrapTheme.css" rel="stylesheet">
+        <link href="assets/css/custom.css" rel="stylesheet">
+        <script src="assets/js/bootstrap-collapse.js"></script>
+        <script src="assets/js/bootstrap-transition.js"></script>
+        <script src="assets/js/bootstrap-tab.js"></script>
+        <script src="assets/js/google-code-prettify/prettify.js"></script>
+        <script src="assets/js/application.js"></script>
+        <script src="assets/js/jquery-1.9.1.min.js"></script> 
+        <script src="owl-carousel/owl.carousel.js"></script>
 
-<style>
-                    
-    /*      menu        */
-    /*.body-color {
-        color: rgb(26, 188, 156);
-    } */ 
-    /* #title-div {
-    font-size: 29px;
-    }*/
-    #text-bl-div-service{
-        margin: 20px 108px 20px 108px;
-    }
+        <style>
 
-    #text-div-service {
-        font: 400 15px/1.8 Lato, sans-serif;
-        font-size: 15px;
-        color: #777;
-      /*  margin: 113px 108px 108px 113px;*/
-    }
+            #text-bl-div-service{
+                margin: 20px 108px 20px 108px;
+            }
 
-    #title-div-service {
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 22px;
-        line-height: 1.42857143;
-        color: #777;
-        letter-spacing: 12px;
-        color: black;
-    }
+            #text-div-service {
+                font: 400 15px/1.8 Lato, sans-serif;
+                font-size: 15px;
+                color: #777;
+            }
 
-    #title-div {
-      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-      margin: 10px 0 30px 0;
-      letter-spacing: 10px;      
-      font-size: 20px;
-      color: white;
-    }
-    .container-div {
-      padding: 130px 90px;
-    }
-    .person {
-      border: 10px solid transparent;
-      margin-bottom: 25px;
-      width: 80%;
-      height: 80%;
-      opacity: 0.7;
-    }
-    .person:hover {
-      border-color: #f1f1f1;
-    }
+            #title-div-service {
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 22px;
+                line-height: 1.42857143;
+                color: #777;
+                letter-spacing: 12px;
+                color: black;
+            }
 
-    .bg-1 {
-      background: #00b3e6;/* #2d2d30;*/
-      color: white;/*#bdbdbd;*/
-    }
-    .bg-1 h3 {color: #fff;}
-    .bg-1 p {font-style: italic;}
-    .list-group-item:first-child {
-      border-top-right-radius: 0;
-      border-top-left-radius: 0;
-    }
-    .list-group-item:last-child {
-      border-bottom-right-radius: 0;
-      border-bottom-left-radius: 0;
-    }
-    .thumbnail {
-      padding: 0 0 15px 0;
-      border: none;
-      border-radius: 0;
-    }
-    .thumbnail p {
-      margin-top: 15px;
-      color: #555;
-    }
-    .btn {
-      padding: 10px 20px;
-      background-color: #ffdd30;
-      color: #00b3e6;
-      border-radius: 0;
-      transition: .2s;
-    }
-    .btn:hover, .btn:focus {
-      border: 1px solid #333;
-      background-color: #fff;
-      color: #000;
-    }
-    .nav-tabs li a {
-      color: #777;
-    }
-    #googleMap {
-      width: 100%;
-      height: 410px;
-    }
-    .navbar {
-      font-family: Montserrat, sans-serif;
-      margin-bottom: 0;
-      background-color: #2d2d30;
-      border: 0;
-      font-size: 11px !important;
-      letter-spacing: 4px;
-      opacity: 0.9;
-    }
-    .navbar li a, .navbar .navbar-brand { 
-      color: #d5d5d5 !important;
-    }
-    .navbar-nav li a:hover {
-      color: #fff !important;
-    }
-    .navbar-nav li.active a {
-      color: #fff !important;
-      background-color: #29292c !important;
-    }
-    .navbar-default .navbar-toggle {
-      border-color: transparent;
-    }
+            #title-div {
+              font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+              margin: 10px 0 30px 0;
+              letter-spacing: 10px;      
+              font-size: 20px;
+              color: white;
+            }
+            .container-div {
+              padding: 130px 90px;
+            }
+            .person {
+              border: 10px solid transparent;
+              margin-bottom: 25px;
+              width: 80%;
+              height: 80%;
+              opacity: 0.7;
+            }
+            .person:hover {
+              border-color: #f1f1f1;
+            }
 
+            .bg-1 {
+              background: #00b3e6;
+              color: white;
+            }
+            .bg-1 h3 {color: #fff;}
+            .bg-1 p {font-style: italic;}
+            .list-group-item:first-child {
+              border-top-right-radius: 0;
+              border-top-left-radius: 0;
+            }
+            .list-group-item:last-child {
+              border-bottom-right-radius: 0;
+              border-bottom-left-radius: 0;
+            }
+            .thumbnail {
+              padding: 0 0 15px 0;
+              border: none;
+              border-radius: 0;
+            }
+            .thumbnail p {
+              margin-top: 15px;
+              color: #555;
+            }
+            .btn {
+              padding: 10px 20px;
+              background-color: #ffdd30;
+              color: #00b3e6;
+              border-radius: 0;
+              transition: .2s;
+            }
+            .btn:hover, .btn:focus {
+              border: 1px solid #333;
+              background-color: #fff;
+              color: #000;
+            }
+            .nav-tabs li a {
+              color: #777;
+            }
+            #googleMap {
+              width: 100%;
+              height: 410px;
+            }
 
-    footer {
-      background-color:  #00b3e6;
-      color: #f5f5f5;
-     /* padding: 32px;*/
-    padding-top: 57px;
-    padding-right: 77px;
-    padding-bottom: 32px;
-    padding-left: 57px;
-    }
-    footer a {
-      color: #f5f5f5;
-    }
-    footer a:hover {
-      color: #777;
-      text-decoration: none;
-    }  
-    .form-control {
-      border-radius: 0;
-    }
-    textarea {
-      resize: none;
-    }
+            .navbar {
+                font-family: 'Biryani', sans-serif;
+                margin-bottom: 0;
+                //background-color: #fffafa;
+                //background-color: #00b3e6;
+                 background-color: #0ea5d1;
+                border: 0;
+                font-size: 11px !important;
+                letter-spacing: 1px;
+               // opacity: 0.9;                
+            }
 
-    #bigWord{
-    font-size: 180%; 
-    color:#ffdd30;     
-    }
+            .navbar-brand {
+                float: left;
+                height: 50px;
+                padding: 6px 15px 15px 15px !important;
+                font-size: 18px;
+                line-height: 20px;
+            }
 
-    #footerLink{
-    color: #ffdd30;
-    /*border-bottom: dotted 1px #ffdd30;*/
-    }
+            .navbar li a, .navbar .navbar-brand { 
+              //color: #d5d5d5 !important;
+              color: white !important;
+            }
+            #myNavbar li a:hover {
+              color: #ffdd30 !important;
+            }
 
-    h4{
-        color: white;
-        /*color: #ffdd30;*/
-        font-size: 141%;  
-         font-weight: bold;    
-    }
+            .navbar-nav li a:hover {
+              color: #fff !important;
+            }
 
-    #strong-text{
-        font-size: 25px;
-    }
+            .navbar-nav li.active a {
+              color: #fff !important;
+              background-color: #29292c !important;
+            }
+            .navbar-default .navbar-toggle {
+              border-color: transparent;
+            }
 
-    #text-background{
-       /* color: #ffdd30;*/
-      color: white;
-    }
-          
+            .icon-bar {
+                background-color: white !important;
+            }
+
+            .icon-bar:hover {
+                background-color: #00b3e6 !important;
+            }
+
+            .navbar-toggle:hover {
+                background-color: #ffdd30 !important;
+            }
+
+            .navbar-toggle {
+                background-color: transparent !important;
+            }
+            .navbar-toggle:target {
+                background-color: yellow !important;
+            }
 
 
+            footer {
+            background-color:  #00b3e6;
+            color: #f5f5f5;
+            padding-top: 57px;
+            padding-right: 77px;
+            padding-bottom: 32px;
+            padding-left: 57px;
+            }
+            footer a {
+              color: #f5f5f5;
+            }
+            footer a:hover {
+              color: #777;
+              text-decoration: none;
+            }  
+            .form-control {
+              border-radius: 0;
+            }
+            textarea {
+              resize: none;
+            }
 
-                    #siteHeader { 
-                        background: url('images/color-background.png') no-repeat center center;
-                        background-size: cover;
-                        color: #FFFFFF;
-                        height: 100%;
-                        height: 100%;
-                    }
+            #bigWord{
+            font-size: 180%; 
+            color:#ffdd30;     
+            }
 
-                    body {
-                        font-family: 'Biryani', sans-serif;
-                    }
+            #footerLink{
+            color: #ffdd30;
+            }
 
-                    #title-font{
-                      font-family: 'Biryani', sans-serif;
-                    }
+            h4{
+                color: white;
+                font-size: 141%;  
+                 font-weight: bold;    
+            }
 
-                    H3{
-                        font-weight: 900;
-                        font-size: 318%;
-                    }
+            #strong-text{
+                font-size: 25px;
+            }
 
-                    #title{
-                        font-size: 397%;
-                    }
+            #text-background{
+              color: white;
+            }
+                  
+            #siteHeader { 
+                background: url('images/color-background.png');
+                //background: url('images/color-background.png') no-repeat center center;
+                background-size: cover;
+                color: #FFFFFF;
+                height: 100%;
+                width: 100%;
+            }
 
-                    #float-menu{
-                        width:100%;
-                        position:fixed;
-                        bottom:0;
-                        left:0;
-                        z-index:1002;
-                        background:#19e3b1;
-                        background:rgba(25,227,177,0.9);
-                    }
+            body {
+                font-family: 'Biryani', sans-serif;
+            }
 
-                    #float-menu #wrap{
-                        max-width:800px;
-                        width:100%;
-                        margin:0 auto;
-                        padding:30px;
-                        text-align:left;
-                        -webkit-box-sizing:border-box;
-                        -moz-box-sizing:border-box;
-                        box-sizing:border-box;
-                    }
-                    
-                    #mail{
-                            display: block;
-                            text-transform: uppercase;
-                            background: #ffdd30;
-                            color: #00b3e6;
-                            padding: 20px 40px 15px 40px;
-                            float: left;
-                    }
+            #title-font{
+              font-family: 'Biryani', sans-serif;
+            }
 
-                    /*      menu        */
+            H3{
+                font-weight: 900;
+                font-size: 318%;
+            }
 
-                    a:link, a:visited {
-                        border-bottom: 0px solid;
-                        text-decoration: none;
-                        color: black;
+            #title{
+                font-size: 397%;
+            }
 
-                    }   
-                    a:hover, a:active {
-                       /* border-bottom: 2px solid yellow;*/
-                        text-decoration: none;
-                        background-color: #00b3e6 !important;
-                        color: white;
-                    }
+            #float-menu{
+                width:100%;
+                position:fixed;
+                bottom:0;
+                left:0;
+                z-index:1002;
+                background:#19e3b1;
+                background:rgba(25,227,177,0.9);
+            }
 
-                    /*      menu        */
+            #float-menu #wrap{
+                max-width:800px;
+                width:100%;
+                margin:0 auto;
+                padding:30px;
+                text-align:left;
+                -webkit-box-sizing:border-box;
+                -moz-box-sizing:border-box;
+                box-sizing:border-box;
+            }
+            
+            #mail{
+                    display: block;
+                    text-transform: uppercase;
+                    background: #ffdd30;
+                    color: #00b3e6;
+                    padding: 20px 40px 15px 40px;
+                    float: left;
+            }
 
-                    #mail a:active {
-                        border-bottom: 0px solid white;
-                        text-decoration: none;
-                        color: white;
-                        }
+            a:link, a:visited {
+                border-bottom: 0px solid;
+                text-decoration: none;
+                color: black;
 
-                    #mail:hover {  
-                        border-bottom: 0px solid;
-                        color: white !important;
-                        text-decoration: none;
-                        background-color:  #ffdd30 !important;
-                    }
+            }   
+            a:hover, a:active {                       
+                text-decoration: none;
+                background-color: #00b3e6 !important;
+                color: white;
+            }
 
+            #mail a:active {
+                border-bottom: 0px solid white;
+                text-decoration: none;
+                color: white;
+                }
 
-                    #arrow{
-                        /*width: 100px;*/
-                        /*height: 100px;*/
-                        width: 53px;
-                        height: 50%;
-                        /*background-color: red;*/
-                        position: relative;
-                        -webkit-animation-name: example; /* Chrome, Safari, Opera */
-                        -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
-                        -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
-                        animation-name: example;
-                        animation-duration: 1.6s;
-                        animation-iteration-count: infinite;
-                    }
-
-                    @keyframes example {
-                        0%   {top:0px;}
-                        25%  {top:7px;}
-                        50%  {top:15px;}
-                        75%  {top:7px;}
-                        100% {top:0px;}
-                    }   
-
-
-                    /*div[id*="googleMap"] div > div > div > div > div > div > div > div  {
-                        background: #00b3e6;
-                    }*/
-
-                    #owl-demo .item img{
-                        display: block;
-                        width: 100%;
-                       /* height: auto;*/
-                    }
-
-                    #title-yellow{
-                        color:#ffdd30;
-                    }
-
-
-                    .myTeam .info {                      
-                        padding: 15px 0px;
-                        text-align: center;
-                        line-height: 1.6;
-                        border-bottom-color: transparent;
-                        border-bottom-width: 2px;
-                        border-bottom-style: solid;
-                    }
-
-                    .owl-pagination{
-                         background-color: #00b3e6;
-                    }
-                    .owl-controls{
-                        margin-top: 0px !important;
-                    }
-                    .owl-theme .owl-controls .owl-page span{
-                        background: white !important;
-                    }
-            </style>
+            #mail:hover {  
+                border-bottom: 0px solid;
+                color: white !important;
+                text-decoration: none;
+                background-color:  #ffdd30 !important;
+            }
 
 
+            #arrow{
+                width: 53px;
+                height: 50%;
+                position: relative;
+                -webkit-animation-name: example;
+                -webkit-animation-duration: 4s; 
+                -webkit-animation-iteration-count: infinite; 
+                animation-name: example;
+                animation-duration: 1.6s;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes example {
+                0%   {top:0px;}
+                25%  {top:7px;}
+                50%  {top:15px;}
+                75%  {top:7px;}
+                100% {top:0px;}
+            }   
+
+            #owl-demo .item img{
+                display: block;
+                width: 100%;
+            }
+
+            #title-yellow{
+                color:#ffdd30;
+            }
 
 
+            .myTeam .info {                      
+                padding: 15px 0px;
+                text-align: center;
+                line-height: 1.6;
+                border-bottom-color: transparent;
+                border-bottom-width: 2px;
+                border-bottom-style: solid;
+            }
 
+            .owl-pagination{
+                 background-color: #00b3e6;
+            }
+            .owl-controls{
+                margin-top: 0px !important;
+            }
+            .owl-theme .owl-controls .owl-page span{
+                background: white !important;
+            }
 
-
-
-    <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
-    <link href="owl-carousel/owl.theme.css" rel="stylesheet">
-
-    <link href="assets/css/bootstrapTheme.css" rel="stylesheet">
-    <link href="assets/css/custom.css" rel="stylesheet">
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/google-code-prettify/prettify.js"></script>
-    <script src="assets/js/application.js"></script>
-
-    <script src="assets/js/jquery-1.9.1.min.js"></script> 
-    <script src="owl-carousel/owl.carousel.js"></script>
-
-
-
+        </style>
     </head>
 
     <body>
-        
+
         <header id="siteHeader">
-            <div class="container">
-                <div class="row">&nbsp;</div>
-                <div class="row">&nbsp;</div>
-                <div class="col-md-12">&nbsp;</div>
-                <!--   logo   -->        
+
+            
+        <nav class="navbar navbar-default navbar-fixed-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#myPage"><img src="images/logoAutoSteam-small.png" alt="logoAutoSteam-small" width="150" height="35"></a>
+
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                      
+                  </button>
+                  
+                </div>
+                     <div class="collapse navbar-collapse" id="myNavbar"> 
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a href="#incio">INICIO</a></li>
+                            <li><a href="#somos">SOMOS</a></li>
+                            <li><a href="#servicios">SERVICIOS</a></li>
+                            <li><a href="#galeria">GALERIA</a></li>
+                            <li><a href="#productos">PRODUCTOS</a></li>
+                            <li><a href="#contacto">CONTACTOS</a></li>
+                        </ul>
+                    </div>
+              </div>
+        </nav>
+
+            <div class="container">       
                 <div class="row">
                     <div class="col-md-12">
                         <div class="row">
@@ -382,10 +397,13 @@
                         </div>
                     </div>
                 </div>
-                <!--   menu   -->
                 <div class="row" id="title-font">
                         <div class="col-md-1">&nbsp;</div>
                         <div class="col-md-8">
+
+
+                           
+                        <div class="collapse navbar-collapse" id="myNavbar"> 
                             <ul class="nav navbar-nav navbar-left">
                                 <li><a href="#nicio">INICIO</a></li>
                                 <li><a href="#somos">SOMOS</a></li>
@@ -395,13 +413,15 @@
                                 <li><a href="#contacto">CONTACTOS</a></li>
                             </ul>
                         </div>
+
+
+                        </div>
                         <div class="col-md-3">
                             <div class="col-md-12" >
                                 <a href="#" id="mail">CORREO</a>
                             </div>
                         </div>
                 </div>
-                <!--   texto-descripción   -->
                 <div class="row">
                     <div class="col-md-12">             
                         <div class="row">&nbsp;</div>
@@ -411,6 +431,12 @@
                            <h3 id="title-font">¿QUIENES SOMOS?</h3>
                            <p><strong id="title-font">LAVADO A VAPOR</strong></p>
                            <p>Somos una empresa <strong id="strong-text"><span id="title-yellow">100%</span></strong> mexicana, con m&aacute;s de 4 años de experiencia, dedicada a ofrecer servicios de limpieza y sanitizaci&oacute;n profesional.</p>
+                           <br/>
+                           <br/>
+                           <br/>
+                           <br/>
+                           <br/>
+
                         </div>
                         <div class="col-sm-4">
                             <div class="col-sm-9">
@@ -425,21 +451,10 @@
                                 <div class="row">&nbsp;</div>
                                 <div class="row">
                                     <div id="arrow" class="">
-                                        <!--<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="100" viewBox="0 0 16 16">
-                                            <path fill="#0000" d="M12.5 8.6l-3.5 3.6v-12.2h-2v12.2l-3.5-3.6-1.4 1.5 5.9 5.9 5.9-5.9z"></path>
-                                        </svg>-->
-
                                         <img src="images/arrow-down.png">
-
-
-
                                     </div>
-
-
-                                </div>
-                                
+                                </div>                        
                             </div>
-
                         </div>
                         <div class="col-sm-3">&nbsp;</div>
                     </div>
@@ -447,28 +462,31 @@
             </div>
         </header>
 
-
             
 
-            <div id="servicios">
+         <!--    <div id="servicios">
                 <div class="container-div text-center" id="text-div-service">
                     <div id="title-div-service">Servicios</div>
 
-                    <p><div id="text-bl-div-service"><strong>AutoSteam</strong></div></p>
-                    
-
-                    <!--<div class="col-sm-1">&nbsp;</div>-->
+                    <p><div id="text-bl-div-service"><strong>AutoSteam</strong></div></p>                
                     <div class="col-sm-12">
                         <p id="span-div">La limpieza con la tecnología de AutoSteam utiliza un chorro de vapor para lavar y limpiar interiores y exteriores. La presión del vapor es completamente segura en todo tipo de superficies cuando se utiliza correctamente, además el vapor tiene efectos de desinfección y desodorización.
                         </p>
                     </div>
-                    <!--<div class="col-sm-1">&nbsp;</div>-->
+                </div>
+            </div> -->
 
-                    
+            <div id="servicios" >
+                <div class="container-div text-center" id="text-div-service">
+                    <div id="title-div-service">Servicios</div>
+                    <br/>
+                     <p><div id="text-bl-div-service"><strong>AutoSteam</strong></div></p> 
+                    <p>
+                      La limpieza con la tecnología de AutoSteam utiliza un chorro de vapor para lavar y limpiar interiores y exteriores. La presión del vapor es completamente segura en todo tipo de superficies cuando se utiliza correctamente, además el vapor tiene efectos de desinfección y desodorización.
+                    </p>
 
                 </div>
             </div>
-
 
             <div class="bg-1">
                 <div class="container">
@@ -642,7 +660,6 @@
                 </div>
             </div>
 
-
             <div id="contacto" class="bg-1" class="container">
                     <div class="row">&nbsp;</div>
                         
@@ -691,7 +708,7 @@
                                     <br>
                                     <div class="row">
                                         <div class="col-md-12 form-group">
-                                            <button class="btn pull-right" id="mail" type="submit">Enviar</button> <!--class="btn pull-right"-->
+                                            <button class="btn pull-right" id="mail" type="submit">Enviar</button> 
                                         </div>
                                     </div>
                         </div>
@@ -704,13 +721,12 @@
                     <div class="row">&nbsp;</div>
             </div>
 
-
             <div id="somos" >
                 <div class="container-div text-center" id="text-div-service">
                     <div id="title-div-service">Equipos</div>
                     <br/>
                     <p>
-                      Conoce nuestros equipos generadores de vapor, los cuales permitiran mejorar <table></table>us servicios de limpieza en cualquiera de las categorias en que estes especializado, por favor contactanos para realizar una demostraci&oacute;n a domicilio.
+                      Conoce nuestros equipos generadores de vapor, los cuales permitiran mejorar sus servicios de limpieza en cualquiera de las categorias en que estes especializado, por favor contactanos para realizar una demostraci&oacute;n a domicilio.
                     </p>
 
                 </div>
