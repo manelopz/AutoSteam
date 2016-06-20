@@ -361,14 +361,41 @@
                 } 
             }
 
+            .navbar 
+            {
+                 visibility: hidden;
+            }
+
+
+
+
+            .cookies-dialog{
+              width:100%;
+              position:fixed;
+              bottom:0;
+              left:0;
+              z-index:1002;
+              background:#19e3b1;
+              background:rgba(25,227,177,0.9);
+            }
+
+            .cookies-dialog .wrap{
+              max-width:800px;
+              width:100%;
+              margin:0 auto;
+              padding:20px;
+              text-align:left;
+              -webkit-box-sizing:border-box;
+              -moz-box-sizing:border-box;
+              box-sizing:border-box;
+            }
         </style>
     </head>
 
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
         <header id="siteHeader">
-
-            
+          
         <nav class="navbar navbar-default navbar-fixed-top">
               <div class="container-fluid">
                 <div class="navbar-header">
@@ -398,7 +425,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col-md-1">&nbsp;</div>
+                            <div class="col-md-1 marca">&nbsp;</div>
                             <div class="col-md-11">
                                 <div class="col-md-12 text-right hidden-xs">
                                     <div class="navbar-header ">
@@ -513,8 +540,19 @@
 
 
 
+            <div class="cookies-dialog">
+                <div class="wrap">
+                    <div class="gray-btn right ml10 mb20">Got it</div>
+                    <p class="cd mb0">We use cookies to ensure that we give you the best experience on our website. Click <a href="http://unity3d.com/legal/cookie-policy#cookies" class="cd">here</a> for more information.</p>
+                </div>
+            </div>
+  
+            
 
             <div id="servicios" >
+            
+                <h1 id="scroll-to">I am The H1</h1>
+
                 <div class="container-div text-center" id="text-div-service">
                     <div id="title-div-service">Servicios</div>
                     <br/>
@@ -525,6 +563,41 @@
 
                 </div>
             </div>
+
+
+            <script>
+
+                $( "div.demo" ).scrollTop( 300 );
+
+                /*$( ".marca" ).scroll(function() {
+                    //console.log("hey");
+                    //$('.cookies-dialog').css('visibility', 'hidden');
+                    var wS = $(this).scrollTop();
+                    if (wS>450){
+                        $('#scroll-to').fadeIn(3500);
+                    }
+                }*/
+
+
+                $(window).scroll(function() {
+                    var wS = $(this).scrollTop();
+
+                    if (wS>450){
+                        $('#scroll-to').fadeIn(3500);
+                    }
+
+                    if(wS>1){
+                    
+                        $('.navbar').css('visibility', 'visible');
+                    }
+
+                    if(wS<450){
+                        $('.navbar').css('visibility', 'hidden');
+                        $('.cookies-dialog').css('visibility', 'visible');
+                    }
+
+                });
+            </script>
 
             <div class="bg-1">
                 <div class="container">
