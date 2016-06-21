@@ -55,7 +55,7 @@
               color: white;
             }
             .container-div {
-              padding: 99px 90px;
+              padding: 130px 90px;
             }
             .person {
               border: 10px solid transparent;
@@ -364,8 +364,10 @@
             .navbar 
             {
                  visibility: hidden;
-
             }
+
+
+
 
             .cookies-dialog{
               width:100%;
@@ -374,39 +376,20 @@
               left:0;
               z-index:1002;
               background:#19e3b1;
-              //background:rgba(25,227,177,0.9);
-              background: #ddd8d8;
+              background:rgba(25,227,177,0.9);
             }
 
             .cookies-dialog .wrap{
               max-width:800px;
               width:100%;
               margin:0 auto;
-              padding:18px;
+              padding:20px;
               text-align:left;
               -webkit-box-sizing:border-box;
               -moz-box-sizing:border-box;
               box-sizing:border-box;
             }
-
-            .text-fix {
-                color: grey;
-                font-size: 12.3px;
-
-                padding-top: 27px;
-                padding-right: 0px;
-                padding-bottom: 9px;
-                padding-left: 0px;
-            }
-
-            hr.vertical
-            {
-               width: 0px;
-               height: 3px; /* or height in PX */
-               color: red;
-            } 
-            
-    </style>
+        </style>
     </head>
 
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -441,7 +424,6 @@
             <div class="container">       
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="row">&nbsp;</div>
                         <div class="row">
                             <div class="col-md-1 marca">&nbsp;</div>
                             <div class="col-md-11">
@@ -482,21 +464,8 @@
                         <div class="row hidden-xs">&nbsp;</div>
 
 
-<<<<<<< HEAD
-<!--
-<div class="visible-xs">You're xs</div>
-<div class="visible-sm">You're sm</div>
-<div class="visible-md">You're md</div>
-<div class="visible-lg">You're lg</div>-->
-
-
-
-                        <div class="col-md-1">&nbsp;</div>
-                        <div class="col-sm-4">
-=======
                         <div class="col-lg-1 hidden-xs">&nbsp;</div>
                         <div class="col-lg-4 col-md-4 col-sm-4">
->>>>>>> origin/master
                            <h3 id="title-font">¿QUIENES SOMOS?</h3>
                            <p><strong id="title-font">LAVADO A VAPOR</strong></p>
                            <p>Somos una empresa <strong id="strong-text"><span id="title-yellow">100%</span></strong> mexicana, con m&aacute;s de 4 años de experiencia, dedicada a ofrecer servicios de limpieza y sanitizaci&oacute;n profesional.</p>
@@ -510,17 +479,6 @@
                             <div class="col-lg-10 col-md-7 col-sm-9 col-xs-12 image-small">
                                 <img src="images/replace.png" alt="logoAutoSteam-small" height="260px" width="280px">
                              </div>
-<<<<<<< HEAD
-                            <div class="col-sm-3">
-                                <div class="row">&nbsp;</div>
-                                <div class="row">&nbsp;</div>
-                                <div class="row hidden-xs">&nbsp;</div>
-                                <div class="row hidden-xs">&nbsp;</div>
-                                <div class="row hidden-xs">&nbsp;</div>
-                                <div class="row hidden-xs" >&nbsp;</div>
-                                <div class="row">
-                                    <div id="arrow" class="hidden-xs">
-=======
                             <div class="col-lg-2  col-md-5 col-sm-3 hidden-xs ">
                                 <div class="row hidden-xs">&nbsp;</div>
                                 <div class="row hidden-xs">&nbsp;</div>
@@ -530,7 +488,6 @@
                                 <div class="row hidden-xs">&nbsp;</div>
                                 <div class="row">
                                     <div id="arrow">
->>>>>>> origin/master
                                         <img src="images/arrow-down.png">
                                     </div>
                                 </div>                        
@@ -542,30 +499,31 @@
             </div>
         </header>
 
-            <div class="cookies-dialog">
-                <div class="container">
-                    
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="col-lg-1">&nbsp;</div>
-                            <div class="col-lg-8">
-                                <P class="text-fix">Belgica #314 despacho 401A 
-                               
-                                Col. Portales Del. Benito Juarez 
-                                <hr class="vertical"/>
-                                Nextel: 4620 7281 
-                               <hr class="vertical"/>
-                                Nextel: 4326 8657 
-                               
-                                info@autosteam.com.mx</p>
-                            </div>
-                            <div class="col-lg-3">&nbsp;</div>
+            
 
-                        </div> 
-                    </div> 
-                </div>  
+         <!--    <div id="servicios">
+                <div class="container-div text-center" id="text-div-service">
+                    <div id="title-div-service">Servicios</div>
+    
+                    <p><div id="text-bl-div-service"><strong>AutoSteam</strong></div></p>                
+                    <div class="col-sm-12">
+                        <p id="span-div">La limpieza con la tecnología de AutoSteam utiliza un chorro de vapor para lavar y limpiar interiores y exteriores. La presión del vapor es completamente segura en todo tipo de superficies cuando se utiliza correctamente, además el vapor tiene efectos de desinfección y desodorización.
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+
+
+
+            <div class="cookies-dialog">
+                <div class="wrap">
+                    <div class="gray-btn right ml10 mb20">Got it</div>
+                    <p class="cd mb0">We use cookies to ensure that we give you the best experience on our website. Click <a href="http://unity3d.com/legal/cookie-policy#cookies" class="cd">here</a> for more information.</p>
+                </div>
             </div>
   
+            
+
             <div id="servicios" >
             
                 <h1 id="scroll-to">I am The H1</h1>
@@ -580,6 +538,41 @@
 
                 </div>
             </div>
+
+
+            <script>
+
+                $( "div.demo" ).scrollTop( 300 );
+
+                /*$( ".marca" ).scroll(function() {
+                    //console.log("hey");
+                    //$('.cookies-dialog').css('visibility', 'hidden');
+                    var wS = $(this).scrollTop();
+                    if (wS>450){
+                        $('#scroll-to').fadeIn(3500);
+                    }
+                }*/
+
+
+                $(window).scroll(function() {
+                    var wS = $(this).scrollTop();
+
+                    if (wS>450){
+                        $('#scroll-to').fadeIn(3500);
+                    }
+
+                    if(wS>1){
+                    
+                        $('.navbar').css('visibility', 'visible');
+                    }
+
+                    if(wS<450){
+                        $('.navbar').css('visibility', 'hidden');
+                        $('.cookies-dialog').css('visibility', 'visible');
+                    }
+
+                });
+            </script>
 
             <div class="bg-1">
                 <div class="container">
@@ -932,55 +925,8 @@
 
             <script type="text/javascript">
 
-                $(window).scroll(function() {
-                    var wS = $(this).scrollTop();
-
-                    if(wS>10){
-                        $('.cookies-dialog').css('visibility', 'hidden');
-                    }
-                    
-                    if(wS<10){
-                        $('.cookies-dialog').css('visibility', 'visible');
-                    }
-
-                    if (wS>450){
-                        $('#scroll-to').fadeIn(3500);
-                    }
-
-                    if(wS>1){
-                        $('.navbar').css('visibility', 'visible');
-                    }
-
-                    if(wS<450){
-                        $('.navbar').css('visibility', 'hidden');
-                    }
-
-                });
-
-
                     $(document).ready(function(){
 
-                        var wS = $(this).scrollTop();
-
-                        if(wS>10){
-                            $('.cookies-dialog').css('visibility', 'hidden');
-                        }
-                        
-                        if(wS<10){
-                            $('.cookies-dialog').css('visibility', 'visible');
-                        }
-
-                        if (wS>450){
-                            $('#scroll-to').fadeIn(3500);
-                        }
-
-                        if(wS>1){
-                            $('.navbar').css('visibility', 'visible');
-                        }
-
-                        if(wS<450){
-                            $('.navbar').css('visibility', 'hidden');
-                        }
 
                             $("#owl-demo").owlCarousel({
                                   autoPlay: 3000,
