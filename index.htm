@@ -120,7 +120,7 @@
                 border: 0;
                 font-size: 11px !important;
                 letter-spacing: 1px;
-               // opacity: 0.9;                
+                opacity: 0.93;                
             }
 
             .navbar-brand {
@@ -347,6 +347,20 @@
                 background: white !important;
             }
 
+
+
+            @media (max-width: 767px) {
+               .image-small
+               {
+                    text-align: center;
+                }  
+
+                .contacto
+                {
+                    text-align: center;
+                } 
+            }
+
         </style>
     </head>
 
@@ -398,45 +412,32 @@
                     </div>
                 </div>
                 <div class="row" id="title-font">
-                        <div class="col-md-1">&nbsp;</div>
-                        <div class="col-md-8">
-                        <div class="collapse navbar-collapse" id="myNavbar"> 
-                            <ul class="nav navbar-nav navbar-left">
-                                <li><a href="#nicio">INICIO</a></li>
-                                <li><a href="#somos">SOMOS</a></li>
-                                <li><a href="#servicios">SERVICIOS</a></li>
-                                <li><a href="#galeria">GALERIA</a></li>
-                                <li><a href="#productos">PRODUCTOS</a></li>
-                                <li><a href="#contacto">CONTACTOS</a></li>
-                            </ul>
+                        <div class="col-lg-1 hidden-md">&nbsp;</div>
+                        <div class="col-lg-8 col-md-9">
+                            <div class="collapse navbar-collapse" id="myNavbar"> 
+                                <ul class="nav navbar-nav navbar-left">
+                                    <li><a href="#nicio">INICIO</a></li>
+                                    <li><a href="#somos">SOMOS</a></li>
+                                    <li><a href="#servicios">SERVICIOS</a></li>
+                                    <li><a href="#galeria">GALERIA</a></li>
+                                    <li><a href="#productos">PRODUCTOS</a></li>
+                                    <li><a href="#contacto">CONTACTOS</a></li>
+                                </ul>
+                            </div>
                         </div>
-
-
-                        </div>
-                        <div class="col-md-3 hidden-xs">
-                            <div class="col-md-12">
+                        <div class="col-lg-3 col-md-3 hidden-xs">
+                            <div class="col-lg-12">
                                 <a href="#" id="mail">CORREO</a>
                             </div>
                         </div>
                 </div>
                 <div class="row ">
-                    <div class="col-md-12">             
-                        <div class="row">&nbsp;</div>
-                        <div class="row">&nbsp;</div>
-<!---
-.visible-xs
-.visible-sm
-.visible-md
-.visible-lg
-
-.hidden-xs
-.hidden-sm
-.hidden-md
-.hidden-lg
--->
+                    <div class="col-md-12 col-lg-12">             
+                        <div class="row hidden-xs">&nbsp;</div>
+                        <div class="row hidden-xs">&nbsp;</div>
 
 
-
+<<<<<<< HEAD
 <!--
 <div class="visible-xs">You're xs</div>
 <div class="visible-sm">You're sm</div>
@@ -447,20 +448,24 @@
 
                         <div class="col-md-1">&nbsp;</div>
                         <div class="col-sm-4">
+=======
+                        <div class="col-lg-1 hidden-xs">&nbsp;</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+>>>>>>> origin/master
                            <h3 id="title-font">¿QUIENES SOMOS?</h3>
                            <p><strong id="title-font">LAVADO A VAPOR</strong></p>
                            <p>Somos una empresa <strong id="strong-text"><span id="title-yellow">100%</span></strong> mexicana, con m&aacute;s de 4 años de experiencia, dedicada a ofrecer servicios de limpieza y sanitizaci&oacute;n profesional.</p>
                            <br/>
                            <br/>
-                           <br/>
-                           <br/>
-                           <br/>
-
+                           <br class="hidden-xs"/>
+                           <br class="hidden-xs"/>
+                           <br class="hidden-xs"/>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="col-sm-9">
+                        <div class="col-lg-4 col-md-7 col-sm-7">
+                            <div class="col-lg-10 col-md-7 col-sm-9 col-xs-12 image-small">
                                 <img src="images/replace.png" alt="logoAutoSteam-small" height="260px" width="280px">
                              </div>
+<<<<<<< HEAD
                             <div class="col-sm-3">
                                 <div class="row">&nbsp;</div>
                                 <div class="row">&nbsp;</div>
@@ -470,12 +475,23 @@
                                 <div class="row hidden-xs" >&nbsp;</div>
                                 <div class="row">
                                     <div id="arrow" class="hidden-xs">
+=======
+                            <div class="col-lg-2  col-md-5 col-sm-3 hidden-xs ">
+                                <div class="row hidden-xs">&nbsp;</div>
+                                <div class="row hidden-xs">&nbsp;</div>
+                                <div class="row hidden-xs">&nbsp;</div>
+                                <div class="row hidden-xs">&nbsp;</div>
+                                <div class="row hidden-xs">&nbsp;</div>
+                                <div class="row hidden-xs">&nbsp;</div>
+                                <div class="row">
+                                    <div id="arrow">
+>>>>>>> origin/master
                                         <img src="images/arrow-down.png">
                                     </div>
                                 </div>                        
                             </div>
                         </div>
-                        <div class="col-sm-3">&nbsp;</div>
+                        <div class="col-lg-3 col-md-10 hidden-md hidden-sm">&nbsp;</div>
                     </div>
                 </div>
             </div>
@@ -486,7 +502,7 @@
          <!--    <div id="servicios">
                 <div class="container-div text-center" id="text-div-service">
                     <div id="title-div-service">Servicios</div>
-
+    
                     <p><div id="text-bl-div-service"><strong>AutoSteam</strong></div></p>                
                     <div class="col-sm-12">
                         <p id="span-div">La limpieza con la tecnología de AutoSteam utiliza un chorro de vapor para lavar y limpiar interiores y exteriores. La presión del vapor es completamente segura en todo tipo de superficies cuando se utiliza correctamente, además el vapor tiene efectos de desinfección y desodorización.
@@ -513,50 +529,47 @@
             <div class="bg-1">
                 <div class="container">
                     
-
-
                     <div class="row">
                         &nbsp;
                     </div>
-                    <div class="row">
+                    <div class="row visible-xs">
                         &nbsp;
                     </div>
 
                     <div class="row">
-                        <div class="col-md-1">&nbsp;</div>
-                        <div class="col-md-5">
-                            
+                        <div class="col-md-1 hidden-xs">&nbsp;</div>
+                        <div class="col-md-5 col-xs-6">
                             <div class="row">
-                                <div class="col-md-2">
-                                     <div class="ico">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve" width="60px" height="60px">
-                                            <path d="M442.679,193.985L490,163.559l-11.506-17.881l-47.977,30.85L379.634,46.229H110.362L59.478,176.527l-47.972-30.85L0,163.559  l47.316,30.427C28.041,202.759,14.6,222.189,14.6,244.71v74.67c0,27.209,19.613,49.912,45.44,54.747v18.555  c0,28.171,22.918,51.089,51.089,51.089c28.166,0,51.084-22.918,51.084-51.089v-17.591h165.567v17.591  c0,28.171,22.918,51.089,51.089,51.089c28.166,0,51.084-22.918,51.084-51.089v-18.545c16.554-3.085,30.984-13.534,39.039-28.797  c4.184-7.942,6.401-16.926,6.401-25.96v-74.67C475.394,222.189,461.953,202.759,442.679,193.985z M124.889,67.496h109.478v41.018  h21.266V67.496h109.473l47.455,121.503H77.434L124.889,67.496z M140.947,392.682c0,16.448-13.374,29.822-29.818,29.822  c-16.443,0-29.823-13.374-29.823-29.822v-17.591h59.64V392.682z M378.865,422.504c-16.443,0-29.818-13.374-29.818-29.822v-17.591  h59.641v17.591C408.688,409.13,395.308,422.504,378.865,422.504z M454.128,319.38c0,5.67-1.329,11.069-3.946,16.033  c-5.991,11.36-17.674,18.411-30.492,18.411H70.306c-18.988,0-34.439-15.451-34.439-34.444v-74.67  c0-18.993,15.451-34.444,34.439-34.444H419.69c18.987,0,34.438,15.451,34.438,34.444V319.38z" fill="#ffdd30"/>
-                                            <path d="M387.12,244.023c-23.618,0-42.828,19.211-42.828,42.834c0,17.248,10.264,32.741,26.151,39.46  c5.275,2.231,10.887,3.364,16.677,3.364c15.426,0,29.724-8.35,37.315-21.796c3.613-6.387,5.519-13.666,5.519-21.028  C429.954,263.234,410.739,244.023,387.12,244.023z M405.92,297.429c-5.27,9.335-17.553,13.375-27.19,9.305  c-8-3.386-13.171-11.185-13.171-19.876c0-11.889,9.672-21.567,21.562-21.567c11.894,0,21.567,9.679,21.567,21.567  C408.688,290.565,407.733,294.22,405.92,297.429z" fill="#ffdd30"/>
-                                            <path d="M102.874,244.023c-23.617,0-42.834,19.211-42.834,42.834c0,23.613,19.216,42.824,42.834,42.824  c23.618,0,42.835-19.211,42.835-42.824C145.709,263.234,126.492,244.023,102.874,244.023z M102.874,308.415  c-11.894,0-21.567-9.667-21.567-21.558c0-11.889,9.673-21.567,21.567-21.567c11.895,0,21.568,9.679,21.568,21.567  C124.442,298.748,114.769,308.415,102.874,308.415z" fill="#ffdd30"/>
-                                            <rect x="206.164" y="276.225" width="77.667" height="21.267" fill="#ffdd30"/>
-                                            
-                                        </svg>                   
-                                </div>
-                                 </div>
-                                 <div class="col-md-10">
-                                    <div class="servDetil">
-                                        <h4>Automotriz</h4>
-                                        <p id="text-background">
-                                            Limpieza interior (piel y tela)
-                                            <br>Limpieza exterior
-                                            <br>Lavado de motor
-                                            <br>Certificacion en detallado automotriz por la IDA
-                                        </p>
+                                    <div class="col-md-2 col-xs-2">
+                                        <div class="ico">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve" width="60px" height="60px">
+                                                <path d="M442.679,193.985L490,163.559l-11.506-17.881l-47.977,30.85L379.634,46.229H110.362L59.478,176.527l-47.972-30.85L0,163.559  l47.316,30.427C28.041,202.759,14.6,222.189,14.6,244.71v74.67c0,27.209,19.613,49.912,45.44,54.747v18.555  c0,28.171,22.918,51.089,51.089,51.089c28.166,0,51.084-22.918,51.084-51.089v-17.591h165.567v17.591  c0,28.171,22.918,51.089,51.089,51.089c28.166,0,51.084-22.918,51.084-51.089v-18.545c16.554-3.085,30.984-13.534,39.039-28.797  c4.184-7.942,6.401-16.926,6.401-25.96v-74.67C475.394,222.189,461.953,202.759,442.679,193.985z M124.889,67.496h109.478v41.018  h21.266V67.496h109.473l47.455,121.503H77.434L124.889,67.496z M140.947,392.682c0,16.448-13.374,29.822-29.818,29.822  c-16.443,0-29.823-13.374-29.823-29.822v-17.591h59.64V392.682z M378.865,422.504c-16.443,0-29.818-13.374-29.818-29.822v-17.591  h59.641v17.591C408.688,409.13,395.308,422.504,378.865,422.504z M454.128,319.38c0,5.67-1.329,11.069-3.946,16.033  c-5.991,11.36-17.674,18.411-30.492,18.411H70.306c-18.988,0-34.439-15.451-34.439-34.444v-74.67  c0-18.993,15.451-34.444,34.439-34.444H419.69c18.987,0,34.438,15.451,34.438,34.444V319.38z" fill="#ffdd30"/>
+                                                <path d="M387.12,244.023c-23.618,0-42.828,19.211-42.828,42.834c0,17.248,10.264,32.741,26.151,39.46  c5.275,2.231,10.887,3.364,16.677,3.364c15.426,0,29.724-8.35,37.315-21.796c3.613-6.387,5.519-13.666,5.519-21.028  C429.954,263.234,410.739,244.023,387.12,244.023z M405.92,297.429c-5.27,9.335-17.553,13.375-27.19,9.305  c-8-3.386-13.171-11.185-13.171-19.876c0-11.889,9.672-21.567,21.562-21.567c11.894,0,21.567,9.679,21.567,21.567  C408.688,290.565,407.733,294.22,405.92,297.429z" fill="#ffdd30"/>
+                                                <path d="M102.874,244.023c-23.617,0-42.834,19.211-42.834,42.834c0,23.613,19.216,42.824,42.834,42.824  c23.618,0,42.835-19.211,42.835-42.824C145.709,263.234,126.492,244.023,102.874,244.023z M102.874,308.415  c-11.894,0-21.567-9.667-21.567-21.558c0-11.889,9.673-21.567,21.567-21.567c11.895,0,21.568,9.679,21.568,21.567  C124.442,298.748,114.769,308.415,102.874,308.415z" fill="#ffdd30"/>
+                                                <rect x="206.164" y="276.225" width="77.667" height="21.267" fill="#ffdd30"/>
+                                                
+                                            </svg>                   
+                                        </div>
                                     </div>
-                                 </div>
-                             </div>
+                                    <div class="col-md-10 col-xs-10">
+                                        <div class="servDetil">
+                                            <h4>Automotriz</h4>
+                                            <p id="text-background">
+                                                Limpieza interior (piel y tela)
+                                                <br>Limpieza exterior
+                                                <br>Lavado de motor
+                                                <br>Certificacion en detallado automotriz por la IDA
+                                            </p>
+                                        </div>
+                                    </div>
+                            </div>
                         </div>
 
-                        <div class="col-md-1">&nbsp;</div>
+                        <div class="col-md-1 hidden-xs">&nbsp;</div>
 
-                        <div class="col-md-5">
+                        <div class="col-md-5 col-xs-6">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-2 col-xs-2">
                                     <div class="ico">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 463 463" style="enable-background:new 0 0 463 463;" xml:space="preserve" width="60px" height="60px">
                                             <path d="M360.803,178.197l-30.234-30.234c0.279-1.446,0.43-2.937,0.43-4.463c0-10.335-6.71-19.127-16-22.266V95h15.5  c4.687,0,8.5-3.813,8.5-8.5v-55C339,14.131,324.869,0,307.5,0S276,14.131,276,31.5V32h-17v-8.5c0-4.142-3.358-7.5-7.5-7.5h-39.998  c-12.958,0-23.5,10.542-23.5,23.5c0,2.131,0.29,4.194,0.824,6.159L106.855,158.92c-0.227,0.227-0.441,0.464-0.657,0.7  c-0.134,0.146-0.263,0.296-0.393,0.445c-0.379,0.433-0.745,0.876-1.09,1.335c-0.088,0.117-0.172,0.238-0.257,0.356  c-0.347,0.48-0.679,0.968-0.988,1.473c-0.218,0.354-0.428,0.713-0.627,1.079c-0.142,0.264-0.278,0.53-0.41,0.8  c-0.226,0.456-0.438,0.919-0.634,1.39c-0.077,0.186-0.15,0.373-0.221,0.561c-0.22,0.569-0.419,1.148-0.595,1.738  c-0.032,0.107-0.062,0.215-0.092,0.322c-0.185,0.655-0.343,1.321-0.471,1.997c-0.007,0.035-0.018,0.068-0.024,0.103  c-0.019,0.102-0.032,0.205-0.049,0.307c-0.036,0.209-0.071,0.419-0.101,0.631c-0.031,0.213-0.056,0.425-0.081,0.638  c-0.018,0.152-0.036,0.303-0.05,0.457c-0.03,0.303-0.052,0.605-0.069,0.908c-0.004,0.063-0.008,0.125-0.011,0.187  c-0.261,5.124,1.151,10.166,4.107,14.466l76.122,110.723c-0.164,1.299-0.258,2.619-0.258,3.962c0,3.24,0.493,6.367,1.405,9.311  l-5.996,3.598c-7.038,4.222-11.409,11.943-11.409,20.151V352h-0.5c-4.142,0-7.5,3.358-7.5,7.5V416h-24.5c-4.142,0-7.5,3.358-7.5,7.5  V448h-16.5c-4.142,0-7.5,3.358-7.5,7.5s3.358,7.5,7.5,7.5h208c4.142,0,7.5-3.358,7.5-7.5s-3.358-7.5-7.5-7.5h-16.5v-24.5  c0-4.142-3.358-7.5-7.5-7.5h-24.5v-56.5c0-4.142-3.358-7.5-7.5-7.5h-0.5v-15.441c0-8.208-4.372-15.929-11.409-20.151l-5.996-3.598  c0.913-2.944,1.405-6.07,1.405-9.31c0-14.79-10.249-27.226-24.016-30.594l-67.998-98.907L211.5,63c0,0,0.001,0,0.002,0H251.5  c4.142,0,7.5-3.358,7.5-7.5V47h17v39.5c0,4.687,3.813,8.5,8.5,8.5H300v26.234c-9.29,3.138-16,11.93-16,22.266  c0,1.526,0.151,3.017,0.43,4.463l-30.234,30.234c-2.122,2.122-2.774,5.303-1.66,8.088l16,40c1.155,2.889,3.942,4.716,6.959,4.716  c0.47,0,0.946-0.045,1.422-0.136c3.53-0.68,6.082-3.77,6.082-7.365v-19.365l24.5-12.25l24.5,12.25V223.5  c0,3.595,2.551,6.685,6.082,7.365c0.477,0.091,0.952,0.136,1.422,0.136c3.017,0,5.805-1.828,6.959-4.716l16-40  C363.577,183.5,362.924,180.318,360.803,178.197z M116.461,180.257c-0.023-0.034-0.042-0.07-0.065-0.104  c-0.129-0.196-0.253-0.395-0.365-0.601c-0.008-0.015-0.014-0.031-0.023-0.046c-0.511-0.952-0.848-2.012-0.963-3.137  c0-0.001,0-0.002,0-0.003c-0.028-0.275-0.041-0.555-0.042-0.837c0-0.065,0.006-0.131,0.007-0.196  c0.004-0.213,0.012-0.425,0.032-0.633c0.012-0.125,0.033-0.25,0.051-0.375c0.021-0.151,0.04-0.303,0.069-0.452  c0.026-0.132,0.06-0.26,0.092-0.389c0.036-0.149,0.07-0.299,0.115-0.445c0.028-0.092,0.063-0.182,0.093-0.273  c0.062-0.183,0.125-0.366,0.199-0.543c0.016-0.039,0.036-0.077,0.053-0.116c0.539-1.232,1.359-2.315,2.383-3.161  c0.003-0.002,0.006-0.004,0.009-0.006c0.206-0.17,0.421-0.331,0.643-0.481c0.014-0.01,0.03-0.018,0.044-0.028  c1.349-0.901,2.968-1.429,4.709-1.429c0.286,0,0.568,0.015,0.846,0.043c0.041,0.004,0.083,0.012,0.124,0.017  c0.235,0.027,0.468,0.061,0.696,0.106c0.071,0.015,0.141,0.034,0.211,0.05c0.207,0.047,0.414,0.097,0.615,0.159  c0.048,0.015,0.094,0.033,0.141,0.048c0.226,0.074,0.451,0.153,0.669,0.245c0.005,0.002,0.009,0.004,0.014,0.006  c3.044,1.294,5.184,4.315,5.184,7.826c0,4.687-3.813,8.5-8.5,8.5C120.576,184,117.991,182.514,116.461,180.257z M141.083,159.93  c-0.241-0.272-0.489-0.539-0.743-0.799c-0.314-0.324-0.635-0.639-0.966-0.943c-0.133-0.122-0.269-0.239-0.404-0.357  c-0.449-0.394-0.908-0.773-1.384-1.13c-0.08-0.06-0.162-0.116-0.242-0.175c-0.519-0.379-1.049-0.74-1.597-1.074  c-0.271-0.167-0.548-0.325-0.826-0.48c-0.35-0.195-0.703-0.383-1.063-0.56c-0.435-0.214-0.877-0.417-1.327-0.605  c-0.21-0.087-0.422-0.17-0.636-0.251c-0.543-0.208-1.094-0.398-1.655-0.566c-0.139-0.042-0.279-0.081-0.42-0.12  c-0.019-0.005-0.038-0.011-0.057-0.016l63.507-87.75l-51.877,95.159C141.294,160.147,141.183,160.044,141.083,159.93z   M128.906,198.366c5.783-1.367,10.748-4.872,14.006-9.636l58.414,84.966c-5.513,1.888-10.342,5.258-14.003,9.641L128.906,198.366z   M284.002,448h-145v-17h145V448z M171.002,416v-49h81v49H171.002z M239.875,329.271c2.546,1.527,4.127,4.32,4.127,7.289V352h-65  v-15.441c0-2.968,1.581-5.761,4.127-7.289l6.013-3.608c5.711,5.762,13.625,9.338,22.36,9.338c8.735,0,16.648-3.576,22.36-9.338  L239.875,329.271z M228.002,303.5c0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5s7.402-16.5,16.5-16.5  S228.002,294.402,228.002,303.5z M244,48h-32.498c-4.687,0-8.5-3.813-8.5-8.5s3.813-8.5,8.5-8.5H244V48z M291,31.5  c0-9.098,7.402-16.5,16.5-16.5S324,22.402,324,31.5V48h-33V31.5z M291,63h33v17h-33V63z M307.5,135c4.687,0,8.5,3.813,8.5,8.5  s-3.813,8.5-8.5,8.5s-8.5-3.813-8.5-8.5S302.813,135,307.5,135z M272.146,192.792c-0.24,0.12-0.471,0.251-0.694,0.394l-3.152-7.879  l23.949-23.949c2.256,1.93,4.879,3.438,7.751,4.408v13.099L272.146,192.792z M343.548,193.186c-0.223-0.143-0.454-0.274-0.694-0.394  L315,178.865v-13.099c2.871-0.97,5.495-2.479,7.751-4.408l23.949,23.949L343.548,193.186z" fill="#ffdd30"/>
@@ -566,7 +579,7 @@
                                         </svg>
                                     </div>
                                 </div>
-                                <div class="col-md-10">
+                                <div class="col-md-10 col-xs-10">
                                     <div class="servDetil">
                                         <h4>Industrial</h4>
                                         <p id="text-background">Limpieza de acero inoxidable
@@ -588,11 +601,15 @@
                         &nbsp;
                     </div>
 
+                    <div class="row visible-xs">
+                        &nbsp;
+                    </div>
+
                     <div class="row">
-                        <div class="col-md-1">&nbsp;</div>
-                        <div class="col-md-5">
+                        <div class="col-md-1 hidden-xs">&nbsp;</div>
+                        <div class="col-md-5 col-xs-6">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-2 col-xs-2">
                                     <div class="ico">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 493.422 493.422" style="enable-background:new 0 0 493.422 493.422;" xml:space="preserve" width="60px" height="60px">
                                             <g>
@@ -603,7 +620,7 @@
                                         </svg>                      
                                     </div>
                                 </div>
-                                <div class="col-md-10">
+                                <div class="col-md-10 col-xs-10">
                                     <div class="servDetil">
                                     <h4>Especiales</h4>
                                     <p id="text-background">Limpieza de interiores de aviones y avionetas
@@ -615,11 +632,11 @@
                             </div>
                         </div>
 
-                        <div class="col-md-1">&nbsp;</div>
+                        <div class="col-md-1 hidden-xs">&nbsp;</div>
 
-                        <div class="col-md-5">
+                        <div class="col-md-5 col-xs-6">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-2 col-xs-2">
                                     <div class="ico">
                                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 463 463" enable-background="new 0 0 463 463" width="60px" height="60px">
                                               <g>
@@ -631,7 +648,7 @@
                                             </svg>                     
                                     </div>
                                 </div>
-                                <div class="col-md-10">
+                                <div class="col-md-10 col-xs-10">
                                     <div class="servDetil">
                                         <h4 id="text-background">Oficinas, comercios y hogar</h4>
                                         <p id="text-background">Limpieza de mobiliario de oficina
@@ -650,6 +667,10 @@
                     </div>
 
                     <div class="row">
+                        &nbsp;
+                    </div>
+
+                    <div class="row visible-xs">
                         &nbsp;
                     </div>
 
@@ -685,13 +706,13 @@
             <div id="contacto" class="bg-1" class="container">
                     <div class="row">&nbsp;</div>
                         
-                    
+                    <!--hidden-xs-->
 
                     <div class="row">&nbsp;</div>
 
                     <div class="row, body-color">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-5">
+                        <div class="col-md-2 hidden-xs"></div>
+                        <div class="col-md-5 col-xs-12 contacto">
                             <h4 id="title-yellow">Contactanos</h4>
                             <div class="row">&nbsp;</div>
 
@@ -710,18 +731,23 @@
                             <p>
                                 <i class="fa fa-envelope-o fa-lg" aria-hidden="true" style="color:#ffdd30"></i> info@autosteam.com.mx
                             </p>
-
                         </div>
 
-                        <div class="col-md-4">
-                            <h4 class="title-yellow" id="title-yellow">Envianos un mensaje</h4>
+                        <div class="col-md-4 col-xs-12">
+                             <div class="row visible-xs">
+                                &nbsp;
+                            </div>
+                            <div class="row visible-xs">
+                                &nbsp;
+                            </div>
+                            <h4 class="title-yellow contacto" id="title-yellow">Envianos un mensaje</h4>
                             <div class="row">&nbsp;</div>
                                     <div class="row">
-                                        <div class="col-sm-6 form-group">
+                                        <div class="col-md-6 form-group">
                                             <input class="form-control" id="nombre" name="nombre" placeholder="Nombre" type="text" required="">
                                         </div>
 
-                                        <div class="col-sm-6 form-group">
+                                        <div class="col-md-6 form-group">
                                             <input class="form-control" id="email" name="email" placeholder="Email" type="email" required="">
                                         </div>
                                     </div>
@@ -735,7 +761,7 @@
                                     </div>
                         </div>
 
-                        <div class="col-md-1"></div>
+                        <div class="col-md-1 hidden-xs"></div>
 
                     </div>
 
