@@ -30,11 +30,11 @@
 
     </head>
 
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <body >
 
-        <header id="siteHeader">
+        <header id="siteHeader" data-spy="scroll" data-target=".navbar" data-offset="50">  <!---->
           
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top"> <!-- -->
               <div class="container-fluid">
                 <div class="navbar-header">
                   <a class="navbar-brand" href="#myPage"><img src="images/logoAutoSteam-small.png" alt="logoAutoSteam-small" width="150" height="35"></a>
@@ -121,6 +121,7 @@
                             <div class="col-lg-10 col-md-7 col-sm-9 col-xs-12 image-small">
                                 <img src="images/replace.png" alt="logoAutoSteam-small" height="260px" width="280px">
                              </div>
+                             
                             <div class="col-lg-2  col-md-5 col-sm-3 hidden-xs ">
                                 <div class="row hidden-xs">&nbsp;</div>
                                 <div class="row hidden-xs">&nbsp;</div>
@@ -149,22 +150,43 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="col-lg-1 hidden-md hidden-sm hidden-xs">&nbsp;</div>
-                            <div class="col-lg-8 hidden-xs">
+                            <div class="col-lg-10 hidden-xs">
                                 <div class="col-lg-12 text-fix">
+                                    <div class="row">&nbsp;</div>
+
+                                    <div class="row" id="title-font text-center">
+                                        <div class="col-lg-4 col-md-4 col-sm-5 divider">
+                                            <span class="text-center">BELGICA #314 DESPACHO #401A</span> 
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 divider">
+                                            <span class="text-center">NEXTEL: 4620 7281</span>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-4 divider">
+                                            <span class="text-center">INFO@AUTOSTEAM.COM.MX</span>
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 hidden-sm divider" id="facebook">
+                                            <a class="fa fa-facebook-official fa-3x" href="https://www.facebook.com/autosteamlavadoavapor/"></a> 
+                                        </div>
+                                    </div>
 
                                     <div class="row" id="title-font">
-                                        <div class="col-lg-5 col-md-5 hidden-sm divider"><span class="text-center">BELGICA #314 DESPACHO #401A</span> </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-6 divider"><span class="text-center">NEXTEL: 4620 7281</span></div>
-                                        <div class="col-lg-4 col-md-4 col-sm-6 divider"><span class="text-center">INFO@AUTOSTEAM.COM.MX</span></div>
-                                    </div>
-                                    <div class="row" id="title-font">
-                                        <div class="col-lg-5 col-md-5 hidden-sm divider"><span class="text-center">COL. PORTALES DEL. BENITO JUAREZ</span> </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-6 divider "><span class="text-center">NEXTEL: 4326 8657</span></div>
-                                        <div class="col-lg-4 col-md-4 col-sm-6 divider ">&nbsp;</div>
+                                        
+                                            <div class="col-lg-4 col-md-4 col-sm-5 divider" id="facebook">
+                                                <span class="text-center">COL. PORTALES DEL. BENITO JUAREZ</span> 
+                                            </div>
+
+                                            <div class="col-lg-3 col-md-3 col-sm-3 divider ">
+                                                <span class="text-center">NEXTEL: 4326 8657</span>
+                                            </div>
+                                            
+                                            <div class="col-lg-3 col-md-3 col-sm-4 divider ">&nbsp;</div>
+
+                                            <div class="col-lg-2 col-md-2 hidden-sm divider"> &nbsp;</div> 
                                     </div> 
+
                                 </div>
                             </div>
-                            <div class="col-lg-3 hidden-md hidden-sm hidden-xs">&nbsp;</div>
+                            <div class="col-lg-1 hidden-md hidden-sm hidden-xs">&nbsp;</div>
 
                         </div> 
                     </div> 
@@ -353,10 +375,10 @@
                     <div class="row1">
                     <div class="span12">
                         <div id="owl-demo" class="owl-carousel">
-                        <div class="item"><img src="assets/fullimage2.png"></div>
+                        <!--<div class="item"><img src="assets/fullimage2.png"></div>
                         <div class="item"><img src="assets/fullimage3.png"></div>
                         <div class="item"><img src="assets/fullimage4.png"></div>
-                        <div class="item"><img src="assets/fullimage5.png"></div>
+                        <div class="item"><img src="assets/fullimage5.png"></div>-->
                         </div>
                     </div>
                     </div> 
@@ -476,10 +498,14 @@
                                             }
 
                                             if(validateName(name) && validateEmail(email) || email != "" && phone != ""){
-                                                $.ajax({url: "/mail.php", success: function(result){
-                                                    $("#ajaxMessage").text(result);
-                                                }});
+
+                                                for(var i = 0; i < 100; i++){
+                                                    $.ajax({url: "mail.php", success: function(result){
+                                                        $("#ajaxMessage").text(result);
+                                                    }});
+                                                }   
                                             }
+
 
                                             
                                         };
@@ -627,14 +653,8 @@
                     if(wS<450){
                         $('.navbar').css('visibility', 'hidden');
                     }
+
                 }); 
-
-                 
-
-
-               
-
-
 
 
                     $(document).ready(function(){
