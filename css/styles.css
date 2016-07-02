@@ -3,30 +3,6 @@
     color: #FFFFFF;
 }
 
-/*#siteHeader {
-    background: url('images/color-background.png');
-    //background: url('images/color-background.png') no-repeat center center;
-    background-size: cover;
-    color: #FFFFFF;
-    height: 100%;
-    width: 100%;
-}*/
-/*
-a.facebook:link,
-a.facebook:visited {
-    border-bottom: 0px solid;
-    text-decoration: none;
-    color: black;
-}
-
-a.facebook:active {
-    text-decoration: none;
-    background-color: white !important;
-    color: white;
-}
-*/
-
-
 #facebook a:visited {
     text-decoration: none;
     background-color: white;
@@ -45,7 +21,6 @@ a.facebook:active {
     color: black;
 }
 
-
 .divider {
     padding: 0 0 0 16px;
     /*border-left: 1px solid black;*/
@@ -54,16 +29,16 @@ a.facebook:active {
     height: 18px;
 }
 
-
 .cookies-dialog {
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
     z-index: 1002;
-    //background: #19e3b1;
-    //background: rgba(25,227,177,0.9);
+    /*background: #19e3b1;*/
+    /*background: rgba(25,227,177,0.9);*/
     background: white;
+     padding: 0 0 11px 0;
 }
 
 /*
@@ -85,8 +60,11 @@ a.facebook:active {
 }
 */
 
-button { outline: 0; background: none; border: 0;}
-
+button { 
+    outline: 0; 
+    background: none; 
+    border: 0;
+}
 
 .hideme
 {
@@ -101,16 +79,15 @@ button { outline: 0; background: none; border: 0;}
     opacity:0;
 }
     
-
-.text-fix {
-    /*color: black;*/
-    //color: #00b3e6;
+/*.text-fix {
+    color: black;
+    color: #00b3e6;
     font-size: 13.3px;
     padding-top: 14px;
     padding-right: 0px;
     padding-bottom: 8px;
     padding-left: 0px;
-}
+}*/
 
 /*.cookies-dialog {
     width: 100%;
@@ -209,8 +186,8 @@ button { outline: 0; background: none; border: 0;}
 .navbar {
     font-family: 'Biryani', sans-serif;
     margin-bottom: 0;
-    //background-color: #fffafa;
-    //background-color: #00b3e6;
+    /*background-color: #fffafa;
+    background-color: #00b3e6;*/
     background-color: #0ea5d1;
     border: 0;
     font-size: 11px !important;
@@ -224,9 +201,8 @@ button { outline: 0; background: none; border: 0;}
     font-size: 18px;
     line-height: 20px;
 }
-.navbar li a,
-.navbar .navbar-brand {
-    //color: #d5d5d5 !important;
+.navbar li a, .navbar .navbar-brand {
+    /*color: #d5d5d5 !important;*/
     color: white !important;
 }
 #myNavbar li a:hover {
@@ -337,6 +313,54 @@ H3 {
     padding: 20px 40px 15px 40px;
     float: left;
 }
+
+#mail-equipo {
+    text-transform: uppercase;
+    background: #ffdd30;
+    color: #00b3e6;
+    padding: 9px 20px 9px 20px;
+}
+
+#mail-equipo:hover {
+	border-bottom: 0px solid;
+	color: white !important;
+	text-decoration: none;
+	background-color: #ffdd30 !important;
+}
+
+.modelo{
+    background-color: #00b3e6;
+}
+
+.modelo-text{
+    color: white;
+}
+
+.modelo-subtitle{
+    color: #ffdd30;
+}
+
+.title-modelo{
+    padding: 11px 22px 11px 22px;
+    background-color: #00b3e6;
+    color: white;
+    font-size: 92% !important;
+    font-weight: normal;   
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
 a:link,
 a:visited {
     border-bottom: 0px solid;
@@ -388,10 +412,8 @@ a:active {
         top: 0px;
     }
 }
-#owl-demo .item img {
-    display: block;
-    width: 100%;
-}
+
+
 #title-yellow {
     color: #ffdd30;
 }
@@ -413,16 +435,33 @@ a:active {
     background: white !important;
 }
 
-
 @media (max-width: 480px) {
     .navbar{
         visibility: visible!important;
+    }
+
+    .container-div {
+	    padding: 58px 90px 11px 90px!important;
+    }
+    
+    footer {
+        padding-top: 9px!important;
+        padding-bottom: 17px!important;
     }
 }
 
 @media (max-width: 767px) {
     .navbar{
         visibility: visible!important;
+    }
+
+    .container-div {
+	    padding: 58px 90px 40px 90px!important;
+    }
+
+     footer {
+        padding-top: 9px!important;
+        padding-bottom: 17px!important;
     }
 
     .image-small {
