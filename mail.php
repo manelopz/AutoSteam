@@ -16,7 +16,7 @@ $mail->Port = 587;                          // TCP port to connect to
 $mail->setFrom('info@codexworld.com', 'AutoSteam');
 //$mail->addReplyTo('info@codexworld.com', 'CodexWorld');
 $mail->addAddress('autosteamsa@gmail.com');   // Add a recipient
-$mail->AddEmbeddedImage('images/logoAutoSteam-small.png', "myattach");
+$mail->AddEmbeddedImage('images/logoAutoSteam-small-mobil.png', "myattach");
 
 //$mail->AddEmbeddedImage("logoAutoSteam-small.png", "my-attach", "logoAutoSteam-small.png");
 
