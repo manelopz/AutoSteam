@@ -3,6 +3,7 @@
     color: #FFFFFF;
 }
 
+​
 textarea {
     white-space: normal;
     text-align: justify;
@@ -536,4 +537,8 @@ a:active {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.image-carousel{
+    width:100%;
 }
