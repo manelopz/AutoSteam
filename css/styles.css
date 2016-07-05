@@ -542,3 +542,13 @@ a:active {
 .image-carousel{
     width:100%;
 }
+
+/*iPhone 6*/
+
+@media only screen and (max-device-width: 667px) 
+    and (-webkit-device-pixel-ratio: 2) {}
+
+/*iPhone 6+*/
+
+@media screen and (min-device-width : 414px) 
+    and (-webkit-device-pixel-ratio: 3){}
