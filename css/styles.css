@@ -543,12 +543,75 @@ a:active {
     width:100%;
 }
 
+@media only screen and (max-device-width: 320px) {
+H3 {
+    font-weight: 700 !important;
+    font-size: 182% !important;
+}
+
+.main-text-mobil{
+    text-align: justify;
+    text-justify: inter-word;
+    letter-spacing: -1px;
+}
+
+.cookies-div-mobil{
+    padding-top: 4px;
+    padding-left: 3px;
+}
+
+.main-image-mobil{
+    padding-left: 0px !important;
+}
+
+.cookies-text-mobil, .arrow-mobil{
+    display: none;
+}
+
+.border-color-mobil{
+    border-left: none;
+}
+
+.container-div-servicios-mobil{
+    padding: 49px 35px 24px 35px !important;
+    text-align: justify;
+    letter-spacing: 0px;
+}
+.title-div-service-mobil, .text-bl-div-service-mobil{
+    text-align: center;
+}
+
+.text-bl-div-service-mobil{
+    margin: 20px 99px 20px 86px !important;
+}
+
+.col-xs-6 {
+    width: 100%;
+}
+
+.col-ip-mobil{
+    padding-right: 23px;
+    padding-left: 23px;
+    padding-bottom: 4px;
+}
+
+.col-img-ip-mobil{
+    padding-right: 19px;
+    padding-left: 19px;
+}
+
+
+
+
+}
 /*iPhone 6*/
 
-@media only screen and (max-device-width: 667px) 
-    and (-webkit-device-pixel-ratio: 2) {}
+/*@media only screen and (max-device-width: 667px) 
+    and (-webkit-device-pixel-ratio: 2) {}*/
 
 /*iPhone 6+*/
-
+/*
 @media screen and (min-device-width : 414px) 
     and (-webkit-device-pixel-ratio: 3){}
+
+    */
