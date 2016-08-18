@@ -1,5 +1,5 @@
 # AutoSteam
-Resposive Web Design, Made it with Bootstrap + PhpMailer +JQuery
+Resposive Web Design, Made it with Bootstrap + PhpMailer + JQuery
 
 [![Codecov](https://img.shields.io/codecov/c/github/codecov/example-python.svg?style=flat-square)](https://github.com/manelopz/AutoSteam)
 
